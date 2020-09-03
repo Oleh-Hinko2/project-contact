@@ -1,0 +1,63 @@
+.app {
+    margin: 30px;
+}
+
+.contacts-list__btns {
+    margin-bottom: 20px;
+}
+
+.contacts-list__btns button {
+    margin-right: 10px;
+}
+
+.ant-list-items li {
+    display: flex;
+}
+
+.ant-list-items li p span {
+    font-weight: bold;
+}
+
+.ant-list-items li p {
+    width: 25%;
+}
+
+.add-new-contact-form label, .add-new-contact-form input {
+    width: 100%;
+    display: inline-block;
+} 
+
+.add-new-contact-form__field {
+    margin-bottom: 10px;
+}
+
+.add-new-contact-form__field label {
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.add-new-contact-form__field input {
+    padding: 5px;
+}
+
+.add-new-contact-form__actions button {
+    background-color: green;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+.close-modal {
+    margin-top: 10px;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+.close-modal span {
+    height: auto;
+}
+
+.add-new-contact-form__error {
+    color: red;
+
+}
