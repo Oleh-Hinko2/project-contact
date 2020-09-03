@@ -1,10 +1,10 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { connect } from 'react-redux';
 import { Modal, Button, List } from 'antd';
-import AddContactForm from './contactForm';
+import AddContactForm from './ContactForm';
 
-import { getAllContacts, addNewContact, toggleShowContactModal, setFavoriteContact, setInitialValues } from '../redux/contacts';
-import { setItem } from '../helpers/storage';
+import { getAllContacts, addNewContact, toggleShowContactModal, setFavoriteContact, setInitialValues } from '../../redux/contacts';
+import { setItem } from '../../helpers/storage';
 
 const constants = {
     newContact: 'Add Contact',

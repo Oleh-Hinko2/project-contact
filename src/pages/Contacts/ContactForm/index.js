@@ -6,7 +6,7 @@ import {
   addNewContact,
   toggleShowContactModal,
   editContact,
-} from "../../redux/contacts";
+} from "../../../redux/contacts";
 import { connect } from "react-redux";
 
 function validateEmail(value) {

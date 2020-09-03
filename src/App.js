@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ContactsList from './pages/ContactsList';
+import ContactsList from './pages/Contacts';
 
 function App() {
   return (
